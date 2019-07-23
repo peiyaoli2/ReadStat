@@ -1,4 +1,8 @@
 
+#ifdef _MSC_VER
+typedef __int64 ssize_t;
+#endif
+
 #include <sys/types.h>
 #include <string.h>
 #include <stdio.h>

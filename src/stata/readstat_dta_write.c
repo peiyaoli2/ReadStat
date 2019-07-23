@@ -4,7 +4,9 @@
 #include <stdint.h>
 #include <string.h>
 #include <sys/types.h>
+#ifndef _MSC_VER
 #include <unistd.h>
+#endif
 #include <time.h>
 
 #include "../readstat.h"
